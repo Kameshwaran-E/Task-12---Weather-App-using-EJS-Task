@@ -38,7 +38,7 @@ fieldset {
 
 .input-field,
 p {
-  display: inline;
+  display: block;
   border-radius: 10px;
   font-weight: 300;
   width: 100%;
