@@ -37,11 +37,11 @@ app.post('/', (req, res) => {
        
             humidity: ${weather.main.humidity},
             
-            ${weather.main.description.toUpperCase()},
+           ()},
         Wind Speed: ${weather.main.wind.speed}
         `;
 
-        res.render('index', { weather: weatherText, waetherDesc, error: null });
+        res.render('index', { weather: weatherText, error: null });
       }
     }
   });
