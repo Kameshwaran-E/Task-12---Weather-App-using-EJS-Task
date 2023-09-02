@@ -36,9 +36,8 @@ app.post('/', (req, res) => {
             maxTemp: ${weather.main.temp_max},
        
             humidity: ${weather.main.humidity},
-            
-           ()},
-        Wind Speed: ${weather.main.wind.speed}
+         
+        Wind Speed: ${weather.wind.speed}
         `;
 
         res.render('index', { weather: weatherText, error: null });
