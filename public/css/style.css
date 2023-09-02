@@ -12,13 +12,13 @@ body {
 }
 
 .container {
-  width: 600px;
+  width: 400px;
   margin: 0 auto;
   border-radius: 10px;
+  display: block;
 }
 
 fieldset {
-  display: block;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   -webkit-padding-before: 0em;
@@ -38,11 +38,10 @@ fieldset {
 
 .input-field,
 p {
-  display: block;
   border-radius: 10px;
   font-weight: 300;
   width: 100%;
-  font-size: 25px;
+  font-size: 20px;
   border: 0px;
   outline: none;
   width: 100%;
