@@ -31,13 +31,13 @@ app.post('/', (req, res) => {
           error: 'Error, please try again',
         });
       } else {
-        let weatherText = `${weather.main.temp} degrees in ${weather.name}!,\n
-        minTemp: ${weather.main.temp_min},\n
-            maxTemp: ${weather.main.temp_max},\n
+        let weatherText = `${weather.main.temp} degrees in ${weather.name}!
+       <p> minTemp: ${weather.main.temp_min}</p>,
+           <p> maxTemp: ${weather.main.temp_max}</p>,
        
-            humidity: ${weather.main.humidity},\n
+           <p> humidity: ${weather.main.humidity}</p>,
          
-        Wind Speed: ${weather.wind.speed}\n
+        <p>Wind Speed: ${weather.wind.speed}</p>
         `;
 
         res.render('index', { weather: weatherText, error: null });
