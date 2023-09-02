@@ -31,7 +31,7 @@ fieldset {
   border-image-width: initial;
   border-image-outset: initial;
   border-image-repeat: initial;
-  width: 200px;
+  min-width: -webkit-min-content;
   padding: 30px;
   border-radius: 10px;
 }
@@ -41,11 +41,10 @@ p {
   display: block;
   border-radius: 10px;
   font-weight: 300;
-  width: 100%;
+  width: 60%;
   font-size: 25px;
   border: 0px;
   outline: none;
-  width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
