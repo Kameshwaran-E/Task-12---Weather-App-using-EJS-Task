@@ -14,6 +14,7 @@ body {
 .container {
   width: 600px;
   margin: 0 auto;
+  border-radius: 10px;
 }
 
 fieldset {
@@ -38,6 +39,7 @@ fieldset {
 .input-field,
 p {
   display: block;
+  border-radius: 10px;
   font-weight: 300;
   width: 100%;
   font-size: 25px;
